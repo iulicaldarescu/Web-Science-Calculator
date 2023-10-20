@@ -1,0 +1,199 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+
+.custom-buttons {
+  color: #0A2463;
+  font-weight: bold;
+  background-color: #F0F0F0;
+  box-shadow: 	0px 2px 4px 0px rgba(0,0,0,0.4),
+		0px 7px 13px -3px rgba(0,0,0,0.29),
+		0px -3px 0px 0px rgba(0,0,0,0.22) inset;
+border:	1px solid rgba(0,0,0,0.01);
+border-radius:	6px;
+}
+
+.custom-buttons:active {
+  
+  
+  transform: translateY(4px);
+}
+
+
+.equal{
+  background-color: rgb(126, 6, 6);
+  box-shadow: 	0px 2px 4px 0px rgba(0,0,0,0.4),
+  0px 7px 13px -3px rgba(0,0,0,0.29),
+  0px -3px 0px 0px rgba(0,0,0,0.22) inset;
+border:	1px solid rgba(0,0,0,0.01);
+border-radius:	6px;
+}
+
+.equal:active{
+  transform: translateY(4px);
+}
+
+#calculator-body.theme1 {
+  background-color: #FF5733;
+}
+
+#result-container.theme1 {
+  background-color: #33FFAD;
+  color: 336BFF;
+}
+#theme-container.theme1 {
+  background-color: #FF5733;
+}
+
+#equal.theme1 {
+  background-color: #336BFF;
+  color: white;
+}
+
+#add.theme1 {
+  background-color: #336BFF;
+}
+
+#divide.theme1{
+  background-color: #336BFF;
+}
+#multiply.theme1{
+  background-color: #336BFF;
+}
+#minus.theme1{
+  background-color: #336BFF;
+}
+#reset.theme1{
+  background-color: #336BFF;
+}
+
+#del.theme1{
+  background-color: #336BFF;
+}
+
+#theme-container.theme1 {
+  background-color: #336BFF;
+}
+
+/* //theme2 */
+#calculator-body.theme2 {
+  background-color: black;
+}
+
+#theme-container.theme2 {
+  background-color: #FF5733;
+}
+
+#result-container.theme2 {
+  background-color: #A9A9A9;
+  
+}
+
+
+#equal.theme2 {
+  background-color: #FF5733;
+  color: black;
+}
+#result.theme2{
+  color: #33FFAD;
+}
+
+#add.theme2 {
+  background-color: #33FFAD;
+  color: #FF5733;
+}
+
+#divide.theme2{
+  background-color: #33FFAD;
+  color: #FF5733;
+}
+#multiply.theme2{
+  background-color: #33FFAD;
+  color: #FF5733;
+}
+#minus.theme2{
+  background-color: #33FFAD;
+  color: #FF5733;
+}
+
+#reset.theme2{
+  background-color: #FF5733;
+  color: black;
+}
+
+#del.theme2{
+  background-color: #FF5733;
+  color: black;
+}
+
+
+
+/* //theme 3 */
+#calculator-body.theme3 {
+  background-color: #8B4513;
+}
+
+#equal.theme3 {
+  background-color: #6B8E23;
+  color: white;
+}
+
+#result-container.theme3 {
+  background-color: #CD853F;
+  
+}
+
+#add.theme3 {
+  background-color: #CD853F;
+  color: black;
+}
+
+#divide.theme3{
+  background-color: #6B8E23;
+  color: white;
+}
+#multiply.theme3{
+  background-color: #CD853F;
+  color: black;
+}
+#minus.theme3{
+  background-color: #6B8E23;
+  color: white;
+}
+
+#reset.theme3{
+  background-color: #CD853F;
+  color: black;
+}
+
+#del.theme3{
+  background-color: #6B8E23;
+  color: white;
+}
+
+#result.theme3{
+  color: #8B4513;
+}
+
+#theme-container.theme3 {
+  background-color: #6B8E23;
+}
+
+
+
